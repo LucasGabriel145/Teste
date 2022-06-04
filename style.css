@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: Gotico;
+    src: url(fonte/Blackza.ttf)
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 4px;
+}
+
+
+header > h1 {
+    color: black;
+    background-color: #29770ad2;
+    font-family: Gotico, Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
